@@ -604,7 +604,7 @@ export default function Dashboard() {
                 <option value="">Select type</option>
                 <option value="file">File</option>
                 <option value="url">URL</option>
-                <option value="database">Database File</option>
+                {/* <option value="database">Database File</option> */}
               </select>
               {category === 'file' && (
                 <input
