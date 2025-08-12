@@ -19,4 +19,4 @@ services:
     container_name: rag-admin-frontend
     environment:
       # This URL now points to the public domain of your backend server
-      - NEXT_PUBLIC_API_URL=http://ec2-65-0-123-3.ap-south-1.compute.amazonaws.com/
+      - NEXT_PUBLIC_API_URL=http://ec2-65-0-123-3.ap-south-1.compute.amazonaws.com
