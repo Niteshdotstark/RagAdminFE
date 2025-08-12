@@ -302,7 +302,7 @@ export default function Dashboard() {
     if (category === 'url') {
       formData.append('url', newUrl);
       await axios.post(
-        `${API_URL}tenants/${activeTenant}/knowledge_base_items/add_url/`,
+        `${API_URL}/tenants/${activeTenant}/knowledge_base_items/add_url/`,
         formData,
         {
           headers: {
