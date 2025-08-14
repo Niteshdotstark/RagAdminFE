@@ -31,7 +31,7 @@ interface ApiError {
   message?: string;
 }
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://ec2-3-7-244-233.ap-south-1.compute.amazonaws.com';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://demoapi.ant24.ai';
 
 export default function Dashboard() {
   const [tenants, setTenants] = useState<Tenant[]>([]);
