@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://3.7.244.233' || 'https://demoapi.ant24.ai';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://demoapi.ant24.ai';
 
 // Updated interface to include new registration fields
 export interface RegisterData {
